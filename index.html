@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Student Registration Form</title>
+	<link rel="stylesheet" href="style.css">
+	<style>body {
+		background-color: #f0f0f0;
+	}
+	
+	.container {
+		background-color: rgb(131, 126, 126);
+		padding: 50px;
+		border: 1px solid black;
+		border-radius: 30px;
+		width: 50%;
+		height: 100%;
+		margin: 0 auto;
+	}
+	</style>
+</head>
+<body>
+	<div class="container">
+		<h2 style="text-align: center; background-color: rgb(178, 182, 182);">Student Registration Form</h2>
+		<p>Fill out the form Carefully for register</p>
+		<form>
+			<div class="form-group">
+				<h1>Student Name</h1>
+			<label for="name">Name</label>
+            <input type="text"> 
+			</div><br>
+			<div class="form-group">
+                <label for="birthdate">Date Of Birth</label>
+                <input type="date"> 
+			</div><br>
+			<div class="form-group">
+				<label for="gender">Gender:</label>
+				<select id="gender" name="gender">
+					<option value="Male">Male</option>
+					<option value="Female">Female</option>
+					<option value="Other">Other</option>
+				</select><br><br>
+			</div>
+			<div class="form-group">
+				<label for="address">Address:</label>
+				<input type="text" id="address" name="address"><br><br>
+				<label for="addressLine2">Address Line 2:</label>
+				<input type="text" id="addressLine2" name="addressLine2"><br><br>
+			</div>
+			<div class="form-group">
+				<label for="state">State/Province:</label>
+				<input type="text" id="state" name="state"><br><br>
+				<label for="city">City:</label>
+				<input type="text" id="city" name="city"><br><br>
+				<label for="postalCode">Postal/Zip Code:</label>
+				<input type="number" id="postalCode" name="postalCode"><br><br>
+			</div>	
+			<div class="form-group">
+				<label for="email">Student Email:</label>
+				<input type="email" id="email" name="email"><br><br>
+				<label for="mobileNumber">Mobile Number:</label>
+				<input type="number" id="mobileNumber" name="mobileNumber"><br><br>
+			
+			</div>
+			<div class="form-group">
+				<label for="company">Company:</label>
+				<input type="text" id="company" name="company"><br><br>
+			</div>
+			<div class="form-group">
+				<label for="courses">Courses:</label>
+				<input type="text" id="courses" name="courses"><br><br>
+			</div>
+			<div class="form-group">
+				<label for="comments">Additional Comments:</label>
+				<textarea id="comments" name="comments"></textarea><br><br>
+			</div>
+			<input type="submit" value="Submit Application">
+			<input type="reset" value="Clear Fields">
+			</form>
+			</div>  		
+</body>
+</html>
